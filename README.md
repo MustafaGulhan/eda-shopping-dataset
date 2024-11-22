@@ -44,10 +44,14 @@ Ensure the file path is correctly set before running the notebook.
     - Generate visualizations for trends and patterns.
     - Analyze correlations and distributions.
 
-# Results
-- Visual insights into customer shopping patterns.
-- Methods for handling missing data effectively.
-- Reproducible workflow for exploratory data analysis.
+# Conclusion and Recommendations / Sonuç ve Öneriler
+In this analysis aimed at improving the performance of the e-commerce platform and analyzing customer behavior, customer spending, delivery fees, coupon usage, and shopping behaviors are considered. Analyzing monthly spending and delivery fees allows for the development of strategies such as free delivery during periods of high delivery charges. City-based analysis aims to increase sales in low-performing areas through special discounts. Spending analysis by gender helps in creating customized campaigns for specific customer groups. Customer value analysis can increase loyalty for high-spending customers through loyalty programs. Additionally, analyzing the effect of coupon usage on sales helps assess the effectiveness of promotional strategies, which can be applied to broader audiences. These analyses provide effective strategies to improve customer experience while increasing the company's revenue.
+
+In e-commerce analysis, the Decision Tree algorithm is appropriate due to its simplicity, interpretability, and speed. Unlike algorithms that rely on linear relationships, such as Logistic Regression, decision trees can model both linear and nonlinear relationships. While more complex algorithms like Random Forest or XGBoost offer higher accuracy, they require more computational power and have lower interpretability. Decision trees work with both categorical and numerical data without the need for preprocessing and provide easily understandable visualizations for managers. These features make them ideal for quick and effective analysis with the current dataset.
+-----
+E-ticaret platformunun performansını artırmak ve müşteri davranışlarını analiz etmek için yapılan bu analizde, müşteri harcamaları, teslimat ücretleri, kupon kullanımı ve alışveriş davranışları ele alınmaktadır. Aylık harcama ve teslimat ücretlerinin analizi, yüksek teslimat ücretlerinin olduğu dönemlerde ücretsiz teslimat gibi stratejiler geliştirilmesine olanak tanır. Şehir bazındaki analizler, düşük performans gösteren bölgelerde özel indirimler ile satışları artırmayı hedefler. Cinsiyet bazında yapılan harcama analizleri, belirli müşteri grupları için özelleştirilmiş kampanyalar oluşturulmasına yardımcı olur. Müşteri değeri analizi, sadakat programlarıyla yüksek harcama yapan müşterilerin bağlılığını artırabilir. Ayrıca, kupon kullanımının satışlar üzerindeki etkisi, promosyon stratejilerinin etkinliğini değerlendirerek daha geniş kitlelere uygulanabilir. Bu analizler, şirketin gelirini artırırken, müşteri deneyimini iyileştirmeye yönelik etkili stratejiler sunar.
+
+E-ticaret analizinde Karar Ağacı algoritması basitliği, açıklanabilirliği ve hızından dolayı mantıklıdır. Logistic Regression gibi doğrusal ilişkilere bağlı algoritmalar yerine, karar ağaçları hem doğrusal hem de doğrusal olmayan ilişkileri modelleyebilir. Random Forest veya XGBoost gibi daha karmaşık algoritmalar yüksek doğruluk sunabilir ancak daha fazla hesaplama gücü gerektirir ve açıklanabilirlikleri düşüktür. Karar ağacı, hem kategorik hem de sayısal verilerle ön işleme gerek kalmadan çalışabilir ve yöneticiler için kolayca anlaşılabilir görselleştirmeler sunar. Bu özellikler, mevcut veri setinizde hızlı ve etkili analizler için idealdir.
 
 # How to Run
 1. Clone the repository:
